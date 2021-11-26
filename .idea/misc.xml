@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_add_contact.xml" value="0.20416666666666666" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_dash_board.xml" value="0.20416666666666666" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_dash_board2.xml" value="0.20416666666666666" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_dash_board_pactivity.xml" value="0.19010416666666666" />
@@ -10,9 +11,11 @@
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_otpmanage.xml" value="0.20416666666666666" />
+        <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_recycler_view.xml" value="0.20416666666666666" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_sign_up_with_image.xml" value="0.20416666666666666" />
         <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/activity_upload_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/WORKS/WorkSpaceAndroid/MyFirebaseDemo/app/src/main/res/layout/firebase_rec_view.xml" value="0.22" />
       </map>
     </option>
   </component>

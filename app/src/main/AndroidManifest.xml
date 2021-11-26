@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.frabbi.myfirebasedemo" >
+    package="com.frabbi.myfirebasedemo">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -11,7 +11,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyFirebaseDemo" >
+        android:theme="@style/Theme.MyFirebaseDemo">
+        <activity
+            android:name=".firebase_recycler.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase_recycler.AddContactActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".numberauth.DashBoardPActivity"
             android:exported="false" />
@@ -20,12 +32,15 @@
             android:exported="false" />
         <activity
             android:name=".numberauth.GetOTPActivity"
-            android:exported="true" >
-      <!--      <intent-filter>
+            android:exported="true">
+
+            <!--
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".emailpassauth.DashBoardActivity"
@@ -35,7 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".emailpassauth.LoginActivity"
-            android:exported="true" >
+            android:exported="true">
 
             <!--
                 <intent-filter>
@@ -47,7 +62,7 @@
         </activity>
         <activity
             android:name=".SignUpWithImageActivity"
-            android:exported="true" >
+            android:exported="true">
 
             <!--
                 <intent-filter>
@@ -59,7 +74,7 @@
         </activity>
         <activity
             android:name=".UploadImageActivity"
-            android:exported="true" >
+            android:exported="true">
 
             <!--
                 <intent-filter>
@@ -71,13 +86,12 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
-
-                <intent-filter>
+            android:exported="true">
+<!--            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
     </application>
 
