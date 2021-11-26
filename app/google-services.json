@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "347217242580",
+    "firebase_url": "https://fir-demo-b0b4e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-demo-b0b4e",
+    "storage_bucket": "fir-demo-b0b4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347217242580:android:c884bf86a957d797a48e41",
+        "android_client_info": {
+          "package_name": "com.frabbi.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347217242580-crlor4227mrgjpmplnl36ru9e9l7nmpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFH7aABsVyAkjdI1Uq_Xf1OIe8leRLnd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347217242580-crlor4227mrgjpmplnl36ru9e9l7nmpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347217242580:android:8891d96545960f52a48e41",
+        "android_client_info": {
+          "package_name": "com.frabbi.myfirebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347217242580-crlor4227mrgjpmplnl36ru9e9l7nmpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFH7aABsVyAkjdI1Uq_Xf1OIe8leRLnd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347217242580-crlor4227mrgjpmplnl36ru9e9l7nmpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
