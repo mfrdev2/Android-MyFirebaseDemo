@@ -58,7 +58,7 @@ public class MyRecyclerAdapter extends FirebaseRecyclerAdapter<ContactModel, MyR
         return new MyViewHolder(mBind);
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    protected static class MyViewHolder extends RecyclerView.ViewHolder {
         FirebaseRecViewBinding mBind;
 
         public MyViewHolder(@NonNull FirebaseRecViewBinding mBind) {

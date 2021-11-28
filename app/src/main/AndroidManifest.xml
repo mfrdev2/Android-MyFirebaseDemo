@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirebaseDemo">
         <activity
-            android:name=".image_slider.ImageSliderActivity"
+            android:name=".tiktok.TikTokVideoActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,16 +22,28 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".image_slider.ImageSliderActivity"
+            android:exported="true">
+       <!--     <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
             android:name=".firebase_recycler.RecyclerViewActivity"
             android:exported="false" />
         <activity
             android:name=".firebase_recycler.AddContactActivity"
             android:exported="true">
-      <!--      <intent-filter>
+
+            <!--
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".numberauth.DashBoardPActivity"
